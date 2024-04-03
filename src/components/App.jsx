@@ -7,6 +7,8 @@ import Statistics from './Statistics/Statistics';
 import friends from '../data/friends.json'
 import FriendsList from './FriendsList/FriendsList'
 
+import Transactions from './Transaction/Transaction';
+import transactions from '../data/transactions.json';
 export const App = () => {
   return (<>
     <Profile
@@ -21,6 +23,7 @@ export const App = () => {
 <Statistics stats={data} />
   
       <FriendsList friends={friends} />;
+      <Transactions items={transactions}/>
   </>
   );
 };
