@@ -5,6 +5,9 @@
   border-collapse: separate;
   margin: 20px auto;
   box-shadow: 0 4px 2px -2px gray;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 
 th,
